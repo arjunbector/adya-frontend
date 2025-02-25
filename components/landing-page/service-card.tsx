@@ -20,7 +20,7 @@ export default function ServiceCard({
             )}
         >
             <div>
-                <h2>{title}</h2>
+                <h2 className="text-heading text-3xl font-semibold">{title}</h2>
                 <p>{description}</p>
             </div>
 

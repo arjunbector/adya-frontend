@@ -20,10 +20,10 @@ const FEATURES = [
 ]
 export default function HowAdyaDelivers() {
     return (
-        <MaxWidthWrapper className="my-10">
+        <MaxWidthWrapper className="my-20">
             <div>
-                <h1>How Adya delivers better care</h1>
-                <p>We meet members where they are—with the right care at the right time.</p>
+                <h1 className="text-heading text-5xl font-bold text-center">How Adya delivers better care</h1>
+                <p className="text-center">We meet members where they are—with the right care at the right time.</p>
                 <div>
                     {FEATURES.map((feature, idx) => (
                         <ServiceCard description={feature.description} title={feature.title} key={idx} idx={idx} />
