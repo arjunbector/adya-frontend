@@ -1,9 +1,9 @@
-import MaxWidthWrapper from "@/components/blocks/max-width-wrapper";
 import Image from "next/image";
 import lefteaft from "@/public/icons/leaf_left.webp"
 import righteaft from "@/public/icons/leaf_right.webp"
 import doctors from "@/public/images/hospice.webp"
 import { Button } from "@/components/ui/button";
+import MaxWidthWrapper from "@/components/max-width-wrapper";
 
 export default function HeroSection() {
     return (
