@@ -12,7 +12,21 @@ function NavHeader() {
   });
 
   return (
-    <ul
+    <motion.ul
+      initial={{
+        opacity: 0,
+        y: "-100%"
+      }}
+      animate={{
+        opacity: 1,
+        y: 0,
+      }}
+
+      transition={{
+        delay: 2,
+        duration: 0.5,
+        ease: "easeOut"
+      }}
       className="fixed inset-0 h-fit top-0 mx-auto flex w-fit rounded-full border-2 border-black bg-white/50 backdrop-blur-xl p-1 mt-8"
       onMouseLeave={() => setPosition((pv) => ({ ...pv, opacity: 0 }))}
     >
@@ -24,7 +38,7 @@ function NavHeader() {
       <Tab setPosition={setPosition}>Contact</Tab>
 
       <Cursor position={position} />
-    </ul>
+    </motion.ul>
   );
 }
 

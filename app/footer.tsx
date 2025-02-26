@@ -12,9 +12,7 @@ const demoData = {
             links: [
                 { text: "Overview", url: "#" },
                 { text: "Pricing", url: "#" },
-                { text: "Marketplace", url: "#" },
                 { text: "Features", url: "#" },
-                { text: "Integrations", url: "#" },
                 { text: "Pricing", url: "#" },
             ],
         },
